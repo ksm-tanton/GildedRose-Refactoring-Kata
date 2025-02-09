@@ -1,11 +1,8 @@
 ﻿using System;
 using GildedRose.App.Factory;
-using GildedRose.Domain.Inventory.Strategy;
 using GildedRose.Domain.Models;
-using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using NUnit.Framework;
-using Constants = GildedRose.Domain.Models.Contants;
 
 namespace GildedRose.Tests.Factory
 {

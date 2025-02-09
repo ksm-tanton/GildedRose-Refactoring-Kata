@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using GildedRose.Domain.Models;
 
-namespace GildedRoseKata.UI
+namespace GildedRose.App.UI
 {
     public class ConsoleUI : IConsoleUI
     {
