@@ -1,15 +1,12 @@
-using GildedRoseKata;
-
 using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-
+using GildedRoseKata;
+using NUnit.Framework;
 using VerifyNUnit;
 
-using NUnit.Framework;
-
-namespace GildedRoseTests;
+namespace GildedRose.Tests;
 
 public class ApprovalTest
 {

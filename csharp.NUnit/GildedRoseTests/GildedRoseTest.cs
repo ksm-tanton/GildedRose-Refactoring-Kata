@@ -4,7 +4,7 @@ using GildedRoseKata;
 using Microsoft.VisualBasic;
 using NUnit.Framework;
 
-namespace GildedRoseTests;
+namespace GildedRose.Tests;
 
 public class GildedRoseTest
 {
