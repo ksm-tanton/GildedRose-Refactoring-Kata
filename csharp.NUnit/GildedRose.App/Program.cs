@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using GildedRose.App.App_Start;
 using GildedRose.App.Factory;
+using GildedRose.App.UI;
 using GildedRose.Domain.Models;
-using GildedRoseKata.UI;
 
 namespace GildedRoseKata;
 

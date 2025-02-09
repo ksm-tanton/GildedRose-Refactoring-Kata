@@ -1,7 +1,7 @@
 ﻿using System;
 using GildedRose.App.Factory;
+using GildedRose.App.UI;
 using GildedRose.Domain.Inventory.Strategy;
-using GildedRoseKata.UI;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace GildedRose.App.App_Start
