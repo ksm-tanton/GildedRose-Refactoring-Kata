@@ -14,12 +14,15 @@ namespace GildedRose.Domain.Inventory.Strategy
 
         private static int GetQualityIncrease(Item item)
         {
+            if (item.SellIn < 0)
+                return -item.Quality;
+
             if (item.SellIn <= 10)
             {
                 return Math.Min(_qualityCap - item.Quality, item.SellIn <= 5 ? 3 : 2);
             }
 
-            return item.SellIn < 0 ? -item.Quality : Math.Min(_qualityCap - item.Quality, 1);
+            return Math.Min(_qualityCap - item.Quality, 1);
         }
     }
 }
